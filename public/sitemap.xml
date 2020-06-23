@@ -18,12 +18,27 @@
   </url>
   
   <url>
+    <loc>/categories/lit/</loc>
+    <lastmod>2020-06-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/</loc>
     <lastmod>2020-06-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
+    <loc>/tags/poetry/</loc>
+    <lastmod>2020-06-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/post/</loc>
+    <lastmod>2020-06-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2020/06/22/reynold-s-number/</loc>
     <lastmod>2020-06-22T00:00:00+00:00</lastmod>
   </url>
   

@@ -1,0 +1,16 @@
+---
+title: Deus ex machina
+author: Richard Careaga
+date: '2020-06-22'
+slug: deus-ex-machina
+categories:
+  - Quotation
+tags:
+  - Political Science
+---
+
+Fabula rasa
+
+> A reconciliation between the two conflicting requirements is effected by a resort to make-believe.
+
+Thorstein Veblen, *Theory of the Leisure Class*

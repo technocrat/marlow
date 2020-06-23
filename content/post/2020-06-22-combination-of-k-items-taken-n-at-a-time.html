@@ -1,0 +1,24 @@
+---
+title: Combination of k items taken n at a time
+author: Richard Careaga
+date: '2020-06-22'
+slug: combination-of-k-items-taken-n-at-a-time
+categories:
+  - Programming
+tags:
+  - Haskell
+---
+
+<script src="/rmarkdown-libs/header-attrs/header-attrs.js"></script>
+
+
+<pre><code>-- combo.hs
+-- problem: C(k,n), where k = the integers from 1 to 9, inclusive
+-- and n = 3, without regard to order, then sum the subsets
+import Data.List
+combinations 0 lst = [[]]
+combinations n lst = do
+    (x:xs) &lt;- tails lst
+    rest &lt;- combinations (n-1) xs
+    return $ x : rest
+result = ( map sum (combinations 3 [1..9]))</code></pre>

@@ -1,0 +1,44 @@
+---
+title: Cat skinning
+author: Richard Careaga
+date: '2020-06-22'
+slug: cat-skinning
+categories:
+  - Programming
+tags:
+  - Python
+---
+
+<script src="/rmarkdown-libs/header-attrs/header-attrs.js"></script>
+
+
+<p>Having grown weary of cutting, pasting, copying, pasting repetitively to shorten links, I finally got around to writing a little snippet to do this. This works in Enthought Canopy Python 2.7.6 64-bit (with an annoying warning message about insecure connections) and in Python 3.4.3 Anaconda 2.2.0 (x86_64) with no message. You will need the free API token from bit.ly</p>
+<pre><code># bitlyshort.py
+# function to query bitly.com API with bitly provided access credential
+# giving a long URL; function returns the bit.ly shortened url
+# example
+# result = shorten(&#39;http://www.example.com&#39;)
+# result[&#39;data&#39;][&#39;url&#39;]
+
+import requests
+
+#YOUR BITLY PROVIDED CREDENTIAL: see http://dev.bitly.com/get_started.html&#39;
+BITLY_GENERIC_ACCESS_TOKEN = &#39;abcdefghijklmnopqrstuvwxyz01234567890&#39;
+
+def shorten(target):
+    query_params = {&#39;access_token&#39;: BITLY_GENERIC_ACCESS_TOKEN,
+                    &#39;longUrl&#39;: target} 
+    endpoint = &#39;https://api-ssl.bitly.com/v3/shorten&#39;
+    return requests.get(endpoint, params=query_params, verify=True).json()
+
+#print result[&#39;data&#39;][&#39;url&#39;]
+# For troubleshooting, full contents of response.json() dictionary object
+&#39;&#39;&#39;
+{&#39;data&#39;: {&#39;global_hash&#39;: &#39;3hDSUb&#39;,
+  &#39;hash&#39;: &#39;1cdxKEg&#39;,
+  &#39;long_url&#39;: &#39;http://www.example.com/&#39;,
+  &#39;new_hash&#39;: 0,
+  &#39;url&#39;: &#39;http://bit.ly/1cdxKEg&#39;},
+ &#39;status_code&#39;: 200,
+ &#39;status_txt&#39;: &#39;OK&#39;}
+&#39;&#39;&#39;</code></pre>

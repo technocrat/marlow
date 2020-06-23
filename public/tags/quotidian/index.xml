@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Quotidian on Marlow&#39;s Listener</title>
+    <link>/tags/quotidian/</link>
+    <description>Recent content in Quotidian on Marlow&#39;s Listener</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 22 Jun 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/quotidian/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Thou Should Nots</title>
+      <link>/2020/06/22/thou-should-not/</link>
+      <pubDate>Mon, 22 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/06/22/thou-should-not/</guid>
+      <description>   Don’t listen to the voice that says go for it! Don’t ignore the voice that says you’ll be sorry Don’t focus on your failures, you can always find new ways of screwing up Don’t expect it to be different this time Don’t worry about tomorrow, you’ll know it when it comes  </description>
+    </item>
+    
+  </channel>
+</rss>

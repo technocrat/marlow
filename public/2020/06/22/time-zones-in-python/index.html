@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="https://cloud.typography.com/73384/6914412/css/fonts.css" />
+<meta name="generator" content="Hugo 0.72.0" />
+
+
+<title>Time zones in Python - Marlow&#39;s Listener</title>
+<meta property="og:title" content="Time zones in Python - Marlow&#39;s Listener">
+
+
+  <link href='/favicon.ico' rel='icon' type='image/x-icon'/>
+
+
+
+  
+
+
+
+
+
+
+
+
+<link href='//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css' rel='stylesheet' type='text/css' />
+
+
+
+<link rel="stylesheet" href="/css/fonts.css" media="all">
+<link rel="stylesheet" href="/css/main.css" media="all">
+
+
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <nav class="nav">
+  <a href="/" class="nav-logo">
+    <img src="/images/logo.png"
+         width="50"
+         height="50"
+         alt="Logo">
+  </a>
+
+  <ul class="nav-links">
+    
+    <li><a href="/about/">About</a></li>
+    
+    <li><a href="https://github.com/technocrat">GitHub</a></li>
+    
+    <li><a href="https://technocrat.rbind.io">R blog</a></li>
+    
+    <li><a href="https://technocratic.io">technocatic.io::pragmatic_analytics</a></li>
+    
+    <li><a href="https://twitter.com/technocrat">Twitter</a></li>
+    
+  </ul>
+</nav>
+
+      </header>
+
+
+<main class="content" role="main">
+
+  <article class="article">
+    
+    <span class="article-duration">1 min read</span>
+    
+
+    <h1 class="article-title">Time zones in Python</h1>
+
+    
+    <span class="article-date">2020-06-22</span>
+    
+
+    <div class="article-content">
+      
+<script src="/rmarkdown-libs/header-attrs/header-attrs.js"></script>
+
+
+<pre><code># timezone.py
+# exemplar
+from datetime import datetime
+from dateutil.parser import parse
+from dateutil import tz
+
+# The input isn&#39;t something that Python recognizes as a date
+s = &quot;Mon Aug 15 21:17:14 GMT 2011&quot;     #start off with a string
+d = parse(s)                           #convert it to a datetime object
+
+# parse doesn&#39;t capture timezone information, so we need to specify
+GMT = tz.gettz(&#39;UTC&#39;)                  #label for GMT
+Beijing = tz.gettz(&#39;Asia/Shanghai&#39;)    #label for localtime
+
+there = d.astimezone(GMT)              #express the datetime object in the GMT(UTC) zone
+here = d.astimezone(Beijing)           #express it local zone
+
+print(here)
+
+print(there)</code></pre>
+
+    </div>
+  </article>
+
+  
+
+
+</main>
+
+      <footer class="footer">
+        <ul class="footer-links">
+          <li>
+            <a href="/index.xml" type="application/rss+xml" target="_blank">RSS feed</a>
+          </li>
+          <li>
+            <a href="https://gohugo.io/" class="footer-links-kudos">Made with <img src="/images/hugo-logo.png" alt="Img link to Hugo website" width="22" height="22"></a>
+          </li>
+        </ul>
+      </footer>
+
+    </div>
+    
+
+
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+
+
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/r.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/yaml.min.js"></script>
+<script>hljs.configure({languages: []}); hljs.initHighlightingOnLoad();</script>
+
+
+
+    
+
+    
+  </body>
+</html>
+

@@ -22,6 +22,76 @@ It was an unusually quiet year in the Kern Canyon. A deeper-than-usual snowpack 
     </item>
     
     <item>
+      <title>Cat skinning</title>
+      <link>/2020/06/22/cat-skinning/</link>
+      <pubDate>Mon, 22 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/06/22/cat-skinning/</guid>
+      <description>Having grown weary of cutting, pasting, copying, pasting repetitively to shorten links, I finally got around to writing a little snippet to do this. This works in Enthought Canopy Python 2.7.6 64-bit (with an annoying warning message about insecure connections) and in Python 3.4.3 Anaconda 2.2.0 (x86_64) with no message. You will need the free API token from bit.ly
+# bitlyshort.py # function to query bitly.com API with bitly provided access credential # giving a long URL; function returns the bit.</description>
+    </item>
+    
+    <item>
+      <title>Combination of k items taken n at a time</title>
+      <link>/2020/06/22/combination-of-k-items-taken-n-at-a-time/</link>
+      <pubDate>Mon, 22 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/06/22/combination-of-k-items-taken-n-at-a-time/</guid>
+      <description>  -- combo.hs -- problem: C(k,n), where k = the integers from 1 to 9, inclusive -- and n = 3, without regard to order, then sum the subsets import Data.List combinations 0 lst = [[]] combinations n lst = do (x:xs) &amp;lt;- tails lst rest &amp;lt;- combinations (n-1) xs return $ x : rest result = ( map sum (combinations 3 [1..9])) </description>
+    </item>
+    
+    <item>
+      <title>Deus ex machina</title>
+      <link>/2020/06/22/deus-ex-machina/</link>
+      <pubDate>Mon, 22 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/06/22/deus-ex-machina/</guid>
+      <description>Fabula rasa
+ A reconciliation between the two conflicting requirements is effected by a resort to make-believe.
+ Thorstein Veblen, Theory of the Leisure Class</description>
+    </item>
+    
+    <item>
+      <title>Generation gap</title>
+      <link>/2020/06/22/generation-gap/</link>
+      <pubDate>Mon, 22 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/06/22/generation-gap/</guid>
+      <description>Truth must change her fashion
+ It is not too much to say that no formula which expresses clearly the thought of one generation, can convey the same meaning to the generation which follows.
+ Brooke Foss Westcott, D.D., D.C.L Bishop of Durham, Late Regius Professor of Divinity, Cambridge, and Canon of Westminster</description>
+    </item>
+    
+    <item>
+      <title>Magna Carta</title>
+      <link>/2020/06/22/magna-carta/</link>
+      <pubDate>Mon, 22 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/06/22/magna-carta/</guid>
+      <description>Considered in its immediate historical context, Magna Carta is at least as much of a property lease amendment as a constitution.</description>
+    </item>
+    
+    <item>
+      <title>Nice customs curtsy to great kinds</title>
+      <link>/2020/06/22/nice-customs-curtsy-to-great-kinds/</link>
+      <pubDate>Mon, 22 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/06/22/nice-customs-curtsy-to-great-kinds/</guid>
+      <description>… all canons of reputability and decency, and all standards of consumption, are traced back by insensible gradations to the usages and habits of thought of the highest social and pecuniary class—the wealthy leisure class.
+ Thorstein Veblen, Theory of the Leisure Class</description>
+    </item>
+    
+    <item>
+      <title>Noblesse obligee </title>
+      <link>/2020/06/22/noblesse-obligee/</link>
+      <pubDate>Mon, 22 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/06/22/noblesse-obligee/</guid>
+      <description>It is only in the middle classes, Stephen, that people get into a state of dumb helpless horror when they find that there are wicked people in the world. In our class, we have to decide what is to be done with wicked people; and nothing should disturb our self possession.
+ Lady Britomart, Major Barbara by G.B. Shaw</description>
+    </item>
+    
+    <item>
       <title>Reynold&#39;s Number</title>
       <link>/2020/06/22/reynold-s-number/</link>
       <pubDate>Mon, 22 Jun 2020 00:00:00 +0000</pubDate>
@@ -39,6 +109,43 @@ Time long after we weary of it
 As we wearied of childhood and
 Its fabled happiness of endless
 August cut off from recess.</description>
+    </item>
+    
+    <item>
+      <title>The eternal &#34;who&#34;</title>
+      <link>/2020/06/22/the-eternal-who/</link>
+      <pubDate>Mon, 22 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/06/22/the-eternal-who/</guid>
+      <description>We perceive the light reflected from ten million leaves and see the pattern trees. We perceive the air on our skin or the dinner in our gut and feel the pattern me. But me should be us, an ecosystem of bacteria and viruses to which we each are the primordial forest. Nor is industrial agriculture missing – we suppress or enhance fertility, apply pesticides and fertilizers and sprinkle fairy dust into our brains.</description>
+    </item>
+    
+    <item>
+      <title>The Grand Pooh-bahs were ever thus</title>
+      <link>/2020/06/22/the-grand-pooh-bahs-were-ever-thus/</link>
+      <pubDate>Mon, 22 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/06/22/the-grand-pooh-bahs-were-ever-thus/</guid>
+      <description>The potentates of this world are sufficiently apt to consider themselves as possessed of an inherent superiority which gives them a right to govern and makes mankind their own; and this infatuation is almost every where fostered in them by the creeping sycophants about them and the language of flattery which they are continually hearing.
+ A Discourse on the Love of our Country by Richard Price, delivered on Nov.</description>
+    </item>
+    
+    <item>
+      <title>Thou Should Nots</title>
+      <link>/2020/06/22/thou-should-not/</link>
+      <pubDate>Mon, 22 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/06/22/thou-should-not/</guid>
+      <description>   Don’t listen to the voice that says go for it! Don’t ignore the voice that says you’ll be sorry Don’t focus on your failures, you can always find new ways of screwing up Don’t expect it to be different this time Don’t worry about tomorrow, you’ll know it when it comes  </description>
+    </item>
+    
+    <item>
+      <title>Time zones in Python</title>
+      <link>/2020/06/22/time-zones-in-python/</link>
+      <pubDate>Mon, 22 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/06/22/time-zones-in-python/</guid>
+      <description># timezone.py # exemplar from datetime import datetime from dateutil.parser import parse from dateutil import tz # The input isn&amp;#39;t something that Python recognizes as a date s = &amp;quot;Mon Aug 15 21:17:14 GMT 2011&amp;quot; #start off with a string d = parse(s) #convert it to a datetime object # parse doesn&amp;#39;t capture timezone information, so we need to specify GMT = tz.gettz(&amp;#39;UTC&amp;#39;) #label for GMT Beijing = tz.</description>
     </item>
     
     <item>

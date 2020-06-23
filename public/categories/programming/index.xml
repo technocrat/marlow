@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Programming on Marlow&#39;s Listener</title>
+    <link>/categories/programming/</link>
+    <description>Recent content in Programming on Marlow&#39;s Listener</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 22 Jun 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/programming/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Cat skinning</title>
+      <link>/2020/06/22/cat-skinning/</link>
+      <pubDate>Mon, 22 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/06/22/cat-skinning/</guid>
+      <description>Having grown weary of cutting, pasting, copying, pasting repetitively to shorten links, I finally got around to writing a little snippet to do this. This works in Enthought Canopy Python 2.7.6 64-bit (with an annoying warning message about insecure connections) and in Python 3.4.3 Anaconda 2.2.0 (x86_64) with no message. You will need the free API token from bit.ly
+# bitlyshort.py # function to query bitly.com API with bitly provided access credential # giving a long URL; function returns the bit.</description>
+    </item>
+    
+    <item>
+      <title>Combination of k items taken n at a time</title>
+      <link>/2020/06/22/combination-of-k-items-taken-n-at-a-time/</link>
+      <pubDate>Mon, 22 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/06/22/combination-of-k-items-taken-n-at-a-time/</guid>
+      <description>  -- combo.hs -- problem: C(k,n), where k = the integers from 1 to 9, inclusive -- and n = 3, without regard to order, then sum the subsets import Data.List combinations 0 lst = [[]] combinations n lst = do (x:xs) &amp;lt;- tails lst rest &amp;lt;- combinations (n-1) xs return $ x : rest result = ( map sum (combinations 3 [1..9])) </description>
+    </item>
+    
+    <item>
+      <title>Time zones in Python</title>
+      <link>/2020/06/22/time-zones-in-python/</link>
+      <pubDate>Mon, 22 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/06/22/time-zones-in-python/</guid>
+      <description># timezone.py # exemplar from datetime import datetime from dateutil.parser import parse from dateutil import tz # The input isn&amp;#39;t something that Python recognizes as a date s = &amp;quot;Mon Aug 15 21:17:14 GMT 2011&amp;quot; #start off with a string d = parse(s) #convert it to a datetime object # parse doesn&amp;#39;t capture timezone information, so we need to specify GMT = tz.gettz(&amp;#39;UTC&amp;#39;) #label for GMT Beijing = tz.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,45 @@
+---
+title: Big Kern
+author: Richard
+date: '2020-06-22'
+slug: big-kern
+categories:
+  - Ago
+tags:
+  - Wild
+---
+So, one summer I was camped in Sequoia National Park in California’s Sierra Nevada mountains. My buddy had hiked out to get his sore bottom treated and I was enjoying Don Quijote, walking six miles upstream to a ford on the Kern River and cross over to soak in the hot springs under Mt. Whitney.
+
+It was an unusually quiet year in the Kern Canyon. A deeper-than-usual snowpack was still blocking the easy passes in early July. We had come in the long way, from Quaking Aspen to the south, which was 20 miles and about 8,000 feet in elevation gain and loss and gain again. We stopped by the ranger station at the south boundary of the park and met Craig Johnson, who was keeping our tent and rations. We told him our plans and he suggested that we make camp where Rattlesnake Creek joins the big river about six miles north.
+
+(Craig was getting married and was passing our camp one day when the helicopter with his mail flew overhead. He waved and the pilot threw out the mail sack. It landed in the branches of a big old Jeffrey Pine, about 150 feet up. Craig was sure there was a letter from his girl, and he was quite worked up about how to get it. He got out his gear and tried climbing, but couldn’t get past the first big branch, 50 feet up. He then took out his revolver and tried to hit the sack, but missed. He sent my buddy John back to the station for more ammunition. But that was a ruse. As soon as John was gone, Craig looked at me and said: “I’m worried that this tree is going to blow over in the next storm and crush you guys in your sleep.” I saw where this was going. He figured that John was a tree hugger, but he reckoned that I wouldn’t object to a bit of vandalism. I said, “what are we going to do about it, Craig?” The answer, of course, was to cut the tree down. Out came the double bladed axe and the two man saw. It took us three hours, but that big old tree fell. Right on top of the sack. It took us another hour and a half to cut it loose. By that time, John had returned with a disapproving look. Finally, out came the mail. A few bills and the Sierra Club Magazine, devoted to conservation. No sweetheart letter.)
+
+Every morning I’d wake up at 6 to the sound of a fighter jet from Edwards Air Force base zooming and booming up the canyon at treetop level. You never get used to it. I didn’t realize how low they flew until I was on the canyon rim and looked down into the cockpit of one.
+
+This day, however, it was raining. Raining hard. I was huddled under my poncho trying to read when a blinding flash of light immediately followed by the loudest sound I have ever heard almost knocked me off my log. I should have taken that as a warning.
+
+Later, after a dispirited attempt to cook a meal, I crawled into the tent and waited for sleep. I heard thunder, which was odd because there was no rain on the tent. I looked out and saw stars. That’s funny, I thought.
+
+I went back into the tent and the thunder seemed to be continuous. What else could it be?
+
+Then it came to me
+
+    $C=V^6$
+
+    .
+
+$C$, the competence of a stream, the diameter of silt, sand, gravel or boulders that it can move increases as the sixth power of $V$ of the velocity of the stream.
+
+What I was hearing was boulders rolling down the stream. I put aside the problem in hydrodynamics temporarily and started breaking camp to higher ground in the dark. I was just striking the tent when the creek overflowed its banks. It was a tug of war, but I managed to drag the tent out and up to higher ground as the flooding increased.
+
+Putting it together illuminated the chain of reasoning that I should have been pursuing instead of reading Cervantes.
+
+- There was a late snow pack
+- Temperatures were in the 80sºF
+- A heavy rain is falling
+- We were camped on an alluvial plain of the creek, which was already strewn with boulders
+- The snow pack was 3,000 feet vertically above my head and not very far behind it horizontally
+- If it suddenly melted, there would be a lot of water coming my way
+- It would be more water than the creek channel would be able to handle
+
+And then, later that summer, came the Bear …

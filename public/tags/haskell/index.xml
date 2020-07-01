@@ -17,7 +17,7 @@
       <pubDate>Mon, 22 Jun 2020 00:00:00 +0000</pubDate>
       
       <guid>/2020/06/22/combination-of-k-items-taken-n-at-a-time/</guid>
-      <description>  -- combo.hs -- problem: C(k,n), where k = the integers from 1 to 9, inclusive -- and n = 3, without regard to order, then sum the subsets import Data.List combinations 0 lst = [[]] combinations n lst = do (x:xs) &amp;lt;- tails lst rest &amp;lt;- combinations (n-1) xs return $ x : rest result = ( map sum (combinations 3 [1..9])) </description>
+      <description>  -- combo.hs -- problem: C(k,n), where k = the integers from 1 to 9, inclusive -- and n = 3, without regard to order, then sum the subsets module Combo where import Data.List combinations 0 lst = [[]] combinations n lst = do (x:xs) &amp;lt;- tails lst rest &amp;lt;- combinations (n-1) xs return $ x : rest result = ( map sum (combinations 3 [1..9])) </description>
     </item>
     
   </channel>

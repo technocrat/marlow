@@ -4,7 +4,7 @@ author: Richard Careaga
 date: '2020-06-22'
 slug: combination-of-k-items-taken-n-at-a-time
 categories:
-  - Programming
+  -  
 tags:
   - Haskell
 ---
@@ -12,6 +12,7 @@ tags:
     -- combo.hs
     -- problem: C(k,n), where k = the integers from 1 to 9, inclusive
     -- and n = 3, without regard to order, then sum the subsets
+    module Combo where
     import Data.List
     combinations 0 lst = [[]]
     combinations n lst = do

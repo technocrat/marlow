@@ -1,0 +1,72 @@
+---
+title: Queen Context
+author: technocrat
+date: '2020-06-30'
+slug: queen-context
+categories:
+  - Philosophy
+tags:
+  - Assumptions
+---
+Is the glass half-full or half-empty?
+
+Both, of course. Why ask?
+
+If drinking the cup of hemlock then it's *still* half-empty. If partying down, then it's half-empty *already*. If taking a pre-exam purgative, it's *only* half empty.
+
+If pouring champers, and much of the glass is bubbles, it's *only* half-full. If only a mile from the oasis, it is *still* half-full.
+
+Queen Context: How to allocate attention between what's there and what's not is how a pragmatic analyst lives.
+
+The topping off the glass problem doesn't need an analyst: 
+
+* Got beer 
+* Want more beer
+* Find beer
+
+It's an equation in one variable with one unknown. 
+
+The context problem *does* need an analyst.
+
+* Got data
+* Need solution
+
+*That* is an equation in one or more variables with one or more unknowns. The empty part of the glass does not require more of the same--it requires something to add to or subtract from what's already there to make it more utile. The full part may need to be full of something else. Or empty. In the lawyer's phrase, *it depends.* Without the answer to the question *What is needed in place of the half a glass of water?* it's too soon to start running a model. It won't answer the embarrassing question:
+
+> OK, now that I know the test statistic and its *p-value* what do I actually **do** with that information?
+
+**Questions are in bad odor. Asking a question implies either ignorance or a set-up.**
+
+Aristotle and Taiichi Ohno knew better.
+
+Aristotle defined *the good* as that which we do for its own sake and not for the sake of something else.
+
+Taiichi Ohno forged the Toyota Production System and debugged it with the Five Whys. In his experience, defining a problem generally required asking *why* five times. A war story will illustrate.
+
+A commercial banking client came with a question about a novel financing product. He probably didn't like the answer he had received from the accountants and was forum shopping. He wanted to know if a new deal structure would qualify as a "true sale."  (True sale for financial assets was a holy grail back in the day. It was a key to accelerating the recognition of income.)
+
+After hearing about it, I advised that no, this wasn't a true sale problem, but it might be a variable interest entity problem. Then came the work of picking away at the deal structure.
+
+* What's the alternative? 
+* Who's has the risk when?
+* How does the choice affect transaction costs?
+
+After drilling down, the pieces fell into the place. 
+
+In the glass were
+
+* The bank
+* Its customer
+* Its customer's customer
+* Its customer's customer's collateral
+* Time between several deal timeline points
+* Money, principal
+* Money, interest (time value of principal)
+
+Missing from the glass were ingredients to minimize the interest cost after transaction costs. Those were what the new deal structure solved.
+
+That reduced the problem to walking the accountants through an unfamiliar pattern to show that no, it wasn't a true sale problem, and couldn't be without ever having owned the asset. And, yes, it was a variable interest entity, but another party had the portion that required parking on someone's balance sheet.
+
+So, at the end of the day, the right question was not *do I have a true sale problem?*, it was *what's the right accounting treatment for this transaction?* and *will you help me convince the accountants?*
+
+
